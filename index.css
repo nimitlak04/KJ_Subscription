@@ -1,0 +1,125 @@
+body, *{
+    margin: 0;
+    font-family: Arial, sans-serif;
+    scroll-behavior: smooth;
+}
+#parent{
+    position: relative;
+}
+#parent header{
+    width: 100%;
+    height: 60px;
+    background: white;
+    box-shadow: 2px 1px 10px;
+    box-sizing: border-box;
+    padding: 10px 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+}
+#parent header img{
+    width: 195px;
+}
+#parent header ul{
+    display: flex;
+    float: right;
+    margin: 8px;
+    padding: 0%;
+}
+#parent header ul a{
+    text-decoration: none;
+}
+#parent header ul li{
+    width: 15%;
+    list-style: none;
+    width: fit-content;
+    height: fit-content;
+    background: #0e4451;
+    color: white;
+    margin-left: 10px;
+    padding: 5px 10px;
+    font-size: 16px;
+    border-radius: 5px;
+}
+#parent header ul li:hover{
+    width: inherit;
+    height: inherit;
+    background: #165666;
+}
+#main{
+    width: 100%;
+    height: fit-content;
+    margin-top: 80px;
+}
+#main ul, *{
+    margin: 0;
+}
+#main ul{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    gap: 35px;
+    margin: 0;
+    font-weight: bold;
+    padding: 0%;
+}
+#main ul a{
+    text-decoration: none;
+    color: black;
+}
+#main ul li{
+    list-style: none;
+}
+#main ul li:hover{
+    color: #2FB46C;
+}
+#main hr{
+    width: 95%;
+    border: 1px solid #0e4451;
+    margin: auto;
+    margin-top: 20px;
+}
+#main h3{
+    text-align: center;
+    margin-top: 30px;
+    font-weight: bolder;
+    font-size: 24px;
+}
+#main div{
+    width: 90%;
+    height: fit-content;
+    box-sizing: border-box;
+    margin: auto;
+    margin-top: 30px;
+    /* background-color: #0e4451; */
+
+}
+#main div a img{
+    width: 22%;
+    margin-left: 25px;
+    margin-bottom: 30px;
+    filter: grayscale(100%);
+    transition: all 0.8s;
+}
+#main div a img:hover{
+    filter: grayscale(0%);
+}
+#parent p{
+    width: 90%;
+    padding: 10px;
+    margin: auto;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+}
+#parent footer{
+    width: 100%;
+    height: 60px;
+    background-color: #0e4451;
+    align-items: center;
+    padding: 25px;
+    margin-top: 30px;
+    box-sizing: border-box;
+    color: white;
+}

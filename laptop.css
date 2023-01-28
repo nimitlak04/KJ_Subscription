@@ -1,0 +1,37 @@
+#parent header img{
+    width: 180px;
+}
+#parent header ul li{
+    font-size: 14px;
+}
+#main ul li{
+    font-size: 14px;
+}
+#main section{
+    display: none;
+}
+#main hr{
+    display: none;
+}
+#main h3{
+    font-size: 22px;
+}
+#main div{
+    width: 90%;
+}
+#main div a img{
+    width: 25%;
+    margin-left: 50px;
+    margin-bottom: 30px;
+    filter: grayscale(100%);
+    transition: all 0.8s;
+}
+#main div a img:hover{
+    filter: grayscale(0%);
+}
+#parent p{
+    font-size: 16px;
+}
+#parent footer h5{
+    font-size: 14px;
+}
