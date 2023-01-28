@@ -24,7 +24,7 @@
     margin-left: 50px;
     margin-bottom: 30px;
     filter: grayscale(100%);
-    transition: all 0.8s;
+    transition: all 0.3s;
 }
 #main div a img:hover{
     filter: grayscale(0%);
