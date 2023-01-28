@@ -1,5 +1,8 @@
+#parent header{
+    height: 50px;
+}
 #parent header img{
-    width: 160px;
+    width: 140px;
 }
 #parent header ul li{
     font-size: 8px;
