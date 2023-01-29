@@ -135,15 +135,20 @@ body, *{
 
 
 
+#main h3{
+    color: #2FB46C;
+    font-size: 20px;
+}
 #main .iipage{
-    width: 95%;
+    width: 70%;
     height: fit-content;
-    margin: auto;
-    /* background-color: #0e4451; */
+    margin: auto 30px;
+    background-color: #5a6264;
+    border-radius: 15px;
     padding: 20px;
-    margin-top: 10px;
-    display: flex;
-    justify-content: baseline;
+    margin-top: 30px;
+    display: none;
+    float: left;
 
 }
 #main .iipage img{
@@ -160,4 +165,7 @@ body, *{
     text-align: left;
     font-weight: normal;
     margin-top: 1%;
+}
+#main button{
+    width: 95%;
 }
