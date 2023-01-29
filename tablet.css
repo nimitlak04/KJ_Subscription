@@ -1,3 +1,6 @@
+body{
+    background-color: whitesmoke;
+}
 #parent header img{
     width: 170px;
 }
@@ -34,4 +37,43 @@
 }
 #parent footer h5{
     font-size: 12px;
+}
+
+
+
+
+/*----------------------------2nd Page---------------------------*/
+
+
+
+
+
+#main .iipage{
+    width: 90%;
+    height: fit-content;
+    margin: auto;
+    background-color: white;
+    border-radius: 15px;
+    padding: 20px;
+    margin-top: 10px;
+    display: block;
+    justify-content: baseline;
+
+}
+#main .iipage img{
+    width: 50%;
+    text-align: center;
+    margin-left: 25%;
+}
+#main .iipage p span{
+    font-size: 20px;
+    font-weight: bolder;
+    color: #0e4451;
+}
+#main .iipage p{
+    width: 90%;
+    height: fit-content;
+    text-align: center;
+    font-weight: normal;
+    margin-top: 0.5%;
 }
