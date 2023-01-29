@@ -135,7 +135,7 @@ body, *{
 
 
 
-#main section{
+#main .iipage{
     width: 95%;
     height: fit-content;
     margin: auto;
@@ -146,15 +146,15 @@ body, *{
     justify-content: baseline;
 
 }
-#main section img{
+#main .iipage img{
     width: 30%;
 }
-#main section p span{
+#main .iipage p span{
     font-size: 34px;
     font-weight: bolder;
     color: #0e4451;
 }
-#main section p{
+#main .iipage p{
     width: 65%;
     height: fit-content;
     text-align: left;
