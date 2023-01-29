@@ -38,3 +38,7 @@
 #parent footer h5{
     font-size: 12px;
 }
+#parent footer{
+    height: 40px;
+    padding: 12px;
+}
