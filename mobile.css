@@ -56,9 +56,14 @@ body{
 
 
 
-#main h3{
+#main h4{
     color: #2FB46C;
-    font-size: 14px;
+    text-align: center;
+    margin-top: 30px;
+    font-weight: bolder;
+    font-size: 20px;
+    width: 80%;
+    margin: auto;
 }
 #main .iipage{
     width: 90%;
