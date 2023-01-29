@@ -1,3 +1,6 @@
+body{
+    background-color: whitesmoke;
+}
 #parent header{
     height: 50px;
 }
@@ -10,7 +13,7 @@
 #main ul li{
     font-size: 12px;
 }
-#main section{
+#main ul{
     display: none;
 }
 #main hr{
@@ -41,4 +44,41 @@
 #parent footer{
     height: 40px;
     padding: 12px;
+}
+
+
+
+
+
+/*----------------------------2nd Page---------------------------*/
+
+
+
+
+
+#main section{
+    width: 95%;
+    height: fit-content;
+    margin: auto;
+    background-color: white;
+    padding: 20px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: baseline;
+
+}
+#main section img{
+    width: 30%;
+}
+#main section p span{
+    font-size: 20px;
+    font-weight: bolder;
+    color: #0e4451;
+}
+#main section p{
+    width: 65%;
+    height: fit-content;
+    text-align: left;
+    font-weight: normal;
+    margin-top: 0.5%;
 }

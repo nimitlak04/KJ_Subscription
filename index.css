@@ -123,3 +123,41 @@ body, *{
     box-sizing: border-box;
     color: white;
 }
+
+
+
+
+
+
+/*----------------------------2nd Page---------------------------*/
+
+
+
+
+
+#main section{
+    width: 95%;
+    height: fit-content;
+    margin: auto;
+    /* background-color: #0e4451; */
+    padding: 20px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: baseline;
+
+}
+#main section img{
+    width: 30%;
+}
+#main section p span{
+    font-size: 34px;
+    font-weight: bolder;
+    color: #0e4451;
+}
+#main section p{
+    width: 65%;
+    height: fit-content;
+    text-align: left;
+    font-weight: normal;
+    margin-top: 1%;
+}
