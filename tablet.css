@@ -57,14 +57,19 @@ body{
     width: 80%;
     margin: auto;
 }
+#main .iipage h3{
+    margin: 30px;
+    color: #0e4451;
+}
 #main .iipage{
     width: 90%;
     height: fit-content;
     margin: auto;
-    background-color: white;
+    background-color: #2FB46C;
     border-radius: 15px;
     padding: 20px;
     margin-top: 30px;
+    margin-left: 3%;
     display: block;
     justify-content: baseline;
 
@@ -77,7 +82,10 @@ body{
 #main .iipage p span{
     font-size: 20px;
     font-weight: bolder;
-    color: #0e4451;
+    color: #000000;
+}
+.wide{
+    display: none;
 }
 #main .iipage p{
     width: 90%;
@@ -85,7 +93,7 @@ body{
     text-align: center;
     font-weight: normal;
     margin-top: 0.5%;
-    color: rgb(56, 56, 56);
+    color: rgb(0, 0, 0);
 }
 #mainII{
     display: none;

@@ -16,9 +16,9 @@ body{
 #main ul{
     display: none;
 }
-#main hr{
+/* #main hr{
     display: none;
-}
+} */
 #main h3{
     font-size: 18px;
 }
@@ -65,27 +65,44 @@ body{
     width: 80%;
     margin: auto;
 }
+#main .mobile_tab{
+    display: show;
+    width: 95%;
+    border: 1px solid #0e4451;
+    margin: auto;
+    margin-top: 30px;
+}
 #main .iipage{
     width: 90%;
     height: fit-content;
     margin: auto;
-    background-color: white;
+    background-color: #2FB46C;
     border-radius: 15px;
     padding: 20px;
     margin-top: 30px;
+    margin-left: 1%;
     display: block;
     justify-content: baseline;
 
+}
+#main .iipage h3{
+    margin-bottom: 10px;
+    color: #0e4451;
+    font-size: 18px;
+}
+.wide{
+    display: none;
 }
 #main .iipage img{
     width: 50%;
     text-align: center;
     margin-left: 25%;
+    margin-top: 20px;
 }
 #main .iipage p span{
     font-size: 20px;
     font-weight: bolder;
-    color: #0e4451;
+    color: #000000;
 }
 #main .iipage p{
     width: 90%;
@@ -93,7 +110,7 @@ body{
     text-align: center;
     font-weight: normal;
     margin-top: 0.5%;
-    color: rgb(56, 56, 56);
+    color: rgb(0, 0, 0);
 }
 #mainII{
     display: none;
