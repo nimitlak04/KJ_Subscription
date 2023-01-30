@@ -182,7 +182,7 @@ body, *{
 #mainII .mag_info{
     width: 40%;
     height: fit-content;
-    background-color: #ffffff;
+    background-color: white;
     border-radius: 15px;
     margin-right: 100px;
     margin-top: 30px;
@@ -220,7 +220,7 @@ body, *{
 #mainII .subscrip_info{
     width: 40%;
     height: fit-content;
-    background-color: #ffffff;
+    background-color: white;
     border-radius: 15px;
     margin-left: 100px;
     margin-top: 30px;
