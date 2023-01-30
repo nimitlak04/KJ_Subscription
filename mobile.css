@@ -93,4 +93,8 @@ body{
     text-align: center;
     font-weight: normal;
     margin-top: 0.5%;
+    color: rgb(56, 56, 56);
+}
+#mainII{
+    display: none;
 }
