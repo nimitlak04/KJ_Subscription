@@ -13,10 +13,10 @@ body{
 #main ul li{
     font-size: 12px;
 }
-#main ul{
+/* #main ul{
     display: none;
 }
-/* #main hr{
+#main hr{
     display: none;
 } */
 #main h3{
@@ -38,12 +38,11 @@ body{
 #parent p{
     font-size: 12px;
 }
-#parent footer h5{
-    font-size: 12px;
-}
 #parent footer{
-    height: 40px;
-    padding: 12px;
+    height: 10px;
+}
+#parent footer h5{
+    font-size: 10px;
 }
 
 
@@ -56,62 +55,30 @@ body{
 
 
 
+
 #main h4{
-    color: #2FB46C;
-    text-align: center;
-    margin-top: 30px;
-    font-weight: bolder;
     font-size: 20px;
-    width: 80%;
-    margin: auto;
-}
-#mainII .mag_info hr{
-    margin: 10px;
-    display: show;
-}
-#mainII .mag_info{
-    width: 95%;
-    height: fit-content;
-    background-color: rgba(47, 180, 108, 0.5);
-    border: 2px solid #2FB46C;
-    border-radius: 15px;
-    margin: auto;
-    margin-top: 30px;
-    margin-bottom: 30px;
-    padding: 10px;
-    box-sizing: border-box;
-}
-#mainII section{
-    width: 90%;
-    height: fit-content;
-    margin: auto;
-    box-sizing: border-box;
-    /* background-color: #2FB46C; */
-    display: flex;
-    justify-content: center;
 }
 #mainII .mag_info h3{
     font-size: 18px;
-    text-align: center;
-    color: #0e4451;
-    margin: 10px;
 }
 #mainII .mag_info img{
     width: 120px;
-    margin: 10px 10px;
-    float: left;
+    height: 165px;
 }
 #mainII .mag_info p span{
     font-size: 16px;
-    font-weight: bold;
-    color: black;
 }
 #mainII .mag_info p{
-    width: 80%;
-    font-size: 10px;
-    text-align: justify;
-    color: rgb(0, 0, 0);
-    margin-top: 10px;
-    margin-bottom: 10px;
-    font-weight: normal;
+    font-size: 8px;
+    margin-top: 25px;
+}
+.price .header{
+    font-size: 18px;
+}
+.price li{
+    font-size: 12;
+}
+#mainIII h2{
+    font-size: 18px;
 }

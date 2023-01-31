@@ -11,7 +11,7 @@
     font-size: 14px;
 }
 #main ul{
-    display: none;
+    font-size: 10px;
 }
 /* #main hr{
     display: none;
@@ -19,9 +19,7 @@
 #main h3{
     font-size: 22px;
 }
-#main .mob{
-    display: none;
-}
+
 #main div{
     width: 90%;
 }
@@ -46,6 +44,7 @@
 
 
 
+
 /*----------------------------2nd Page---------------------------*/
 
 
@@ -54,60 +53,21 @@
 
 
 #main h4{
-    color: #2FB46C;
-    text-align: center;
-    font-weight: bolder;
     font-size: 22px;
-    width: 80%;
-    margin: auto;
-    margin-top: 30px;
-}
-#mainII .mag_info hr{
-    margin: 10px;
-}
-#mainII .mag_info{
-    width: 95%;
-    height: fit-content;
-    background-color: rgba(47, 180, 108, 0.5);
-    border: 2px solid #2FB46C;
-    border-radius: 15px;
-    margin: auto;
-    margin-top: 30px;
-    margin-bottom: 30px;
-    padding: 10px;
-    box-sizing: border-box;
-}
-#mainII section{
-    width: 90%;
-    height: fit-content;
-    margin: auto;
-    box-sizing: border-box;
-    /* background-color: #2FB46C; */
-    display: flex;
-    justify-content: center;
 }
 #mainII .mag_info h3{
-    font-size: 24px;
-    text-align: center;
-    color: #0e4451;
-    margin: 10px;
-}
-#mainII .mag_info img{
-    width: 130px;
-    margin: 10px 10px;
-    float: left;
+    font-size: 20px;
 }
 #mainII .mag_info p span{
     font-size: 20px;
-    font-weight: bold;
-    color: black;
 }
 #mainII .mag_info p{
-    width: 80%;
     font-size: 13px;
-    text-align: justify;
-    color: rgb(0, 0, 0);
-    margin-top: 10px;
-    margin-bottom: 10px;
-    font-weight: normal;
+    margin-top: 25px;
+}
+.price .header{
+    font-size: 20px;
+}
+#mainIII h2{
+    font-size: 20px;
 }
