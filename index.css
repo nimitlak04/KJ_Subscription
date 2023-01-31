@@ -138,6 +138,7 @@ body{
 
 
 
+
 #main h4{
     color: #2FB46C;
     text-align: center;
@@ -147,37 +148,9 @@ body{
     margin: auto;
     margin-top: 30px;
 }
-#main .iipage{
-    width: 70%;
-    height: fit-content;
-    margin: auto 30px;
-    background-color: #5a6264;
-    border-radius: 15px;
-    padding: 20px;
-    margin-top: 30px;
-    display: none;
-    float: left;
-
-}
-#main .iipage img{
-    width: 30%;
-}
-#main .iipage p span{
-    font-size: 34px;
-    font-weight: bolder;
-    color: #0e4451;
-}
-#main .iipage p{
-    width: 65%;
-    height: fit-content;
-    text-align: left;
-    font-weight: normal;
-    margin-top: 1%;
-}
 #main h4 .abc{
     display: hide;
 }
-
 #parent hr{
     width: 95%;
     border: 1px solid #0e4451;
@@ -185,14 +158,15 @@ body{
     margin-top: 30px;
 }
 #mainII .mag_info{
-    width: 90%;
-    height: 300px;
-    background-color: rgba(47, 180, 108, 1);
+    width: 95%;
+    height: fit-content;
+    background-color: rgba(47, 180, 108, 0.5);
+    border: 2px solid #2FB46C;
     border-radius: 15px;
     margin: auto;
     margin-top: 30px;
     margin-bottom: 30px;
-    padding: 30px;
+    padding: 10px;
 }
 #mainII section{
     width: 90%;
@@ -204,13 +178,17 @@ body{
     justify-content: center;
 }
 #mainII .mag_info h3{
-    font-size: 24px;
+    font-size: 20px;
     text-align: center;
     color: #0e4451;
+    margin: 10px;
+}
+#mainII .mag_info hr{
+    margin: 20px;
 }
 #mainII .mag_info img{
     width: 150px;
-    margin: 30px 10px;
+    margin: 10px 10px;
     float: left;
 }
 #mainII .mag_info p span{
@@ -223,7 +201,7 @@ body{
     font-size: 16px;
     text-align: justify;
     color: rgb(0, 0, 0);
-    margin-top: 50px;
+    margin-top: 30px;
     margin-bottom: 10px;
     font-weight: normal;
 }

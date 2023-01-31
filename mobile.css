@@ -65,53 +65,53 @@ body{
     width: 80%;
     margin: auto;
 }
-#main .mobile_tab{
+#mainII .mag_info hr{
+    margin: 10px;
     display: show;
+}
+#mainII .mag_info{
     width: 95%;
-    border: 1px solid #0e4451;
-    margin: auto;
-    margin-top: 30px;
-}
-#main .iipage{
-    width: 90%;
     height: fit-content;
-    margin: auto;
-    background-color: #2FB46C;
+    background-color: rgba(47, 180, 108, 0.5);
+    border: 2px solid #2FB46C;
     border-radius: 15px;
-    padding: 20px;
+    margin: auto;
     margin-top: 30px;
-    margin-left: 1%;
-    display: block;
-    justify-content: baseline;
-
+    margin-bottom: 30px;
+    padding: 10px;
+    box-sizing: border-box;
 }
-#main .iipage h3{
-    margin-bottom: 10px;
-    color: #0e4451;
-    font-size: 18px;
-}
-.wide{
-    display: none;
-}
-#main .iipage img{
-    width: 50%;
-    text-align: center;
-    margin-left: 25%;
-    margin-top: 20px;
-}
-#main .iipage p span{
-    font-size: 20px;
-    font-weight: bolder;
-    color: #000000;
-}
-#main .iipage p{
+#mainII section{
     width: 90%;
     height: fit-content;
-    text-align: center;
-    font-weight: normal;
-    margin-top: 0.5%;
-    color: rgb(0, 0, 0);
+    margin: auto;
+    box-sizing: border-box;
+    /* background-color: #2FB46C; */
+    display: flex;
+    justify-content: center;
 }
-#mainII{
-    display: none;
+#mainII .mag_info h3{
+    font-size: 18px;
+    text-align: center;
+    color: #0e4451;
+    margin: 10px;
+}
+#mainII .mag_info img{
+    width: 120px;
+    margin: 10px 10px;
+    float: left;
+}
+#mainII .mag_info p span{
+    font-size: 16px;
+    font-weight: bold;
+    color: black;
+}
+#mainII .mag_info p{
+    width: 80%;
+    font-size: 10px;
+    text-align: justify;
+    color: rgb(0, 0, 0);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: normal;
 }
