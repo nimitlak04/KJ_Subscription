@@ -21,7 +21,7 @@
         </ul>
     </header>
     <h2 class="msg">Great! Now fill the details and be our subscriber.</h2>
-    <div class="mainIV">
+    <div id="mainIV">
     <section class="details">
         <h2>Subscriber Details</h2>
         <table class="d_table">
@@ -43,27 +43,41 @@
                     </td>
                     <td>
                         <label for="">Enter your email address</label><br>
-                        <input type="email" placeholder="Email Address">
+                        <input type="email" placeholder="eg. abc@gmail.com">
                     </td>
                 </tr>
                 <tr>
                     <td>
                         <label for="">State</label><br>
-                        <input type="text" placeholder="State">
+                        <input type="text" placeholder="eg. Delhi">
                     </td>
                     <td>
                         <label for="">ZIP Code</label><br>
-                        <input type="text" placeholder="ZIP Code">
+                        <input type="text" placeholder="eg. 110034">
                     </td>
                 </tr>
                 <tr>
                     <td>
                     <label>Shipping Adddress</label><br>
-                    <textarea name="" id="" cols="50" rows="5" placeholder="Enter the address where your magazine will be sent."></textarea>
+                    <input type="text" placeholder="Enter the address where your magazine will be sent.">
                     </td>
                 </tr>
             </tbody>
         </table>
+        <h2>Payment Mode</h2>
+        <table class="d_tableI">
+            <tbody>
+                <tr>
+                    <td>
+                        <input type="radio" class="radio" name="payment" value="banking"> Net Banking
+                    </td>
+                    <td>
+                        <input type="radio" class="radio" name="payment" value="check"> By Check / Cash
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <img src="Mag_img/payn.jpg" alt="">
     </section>
     <section class="mag_pricing">
         <h4>Selected Magazine</h4>
@@ -93,6 +107,13 @@
                 </tr>
             </tbody>
         </table>
+        <a href="#" onclick="alert('Please fill the details. If already filled, Ignore this msg as this site is at developing stage!')"><button>Pay Now</button></a>
+        <a href="index.html"><button class="cancel">Cancel</button></a>
     </section>
     </div>
+    <footer>
+        <h5>CopyRight - DSR Agri Media Pvt. Ltd. 2023</h5>
+    </footer>
     </div>
+</body>
+</html>

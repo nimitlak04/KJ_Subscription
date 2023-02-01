@@ -82,3 +82,59 @@ body{
 #mainIII h2{
     font-size: 18px;
 }
+
+
+
+
+
+  /*--------------------------------3rd Page--------------------------------*/
+  
+
+
+
+
+  .msg{
+    font-size: 16px;
+}
+#mainIV{
+    display: block;
+}
+.details{
+    width: 95%;
+    float: none;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.details h2{
+    font-size: 20px;
+}
+.details .d_table tbody tr td label{
+    font-size: 12px;
+}
+.details .d_table tbody tr td input{
+    font-size: 12px;
+}
+.details img{
+    width: 90%;
+    margin-left: 20px;
+}
+.mag_pricing{
+    width: 95%;
+    float: none;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin: auto;
+}
+.mag_pricing h4{
+    font-size: 16px;
+}
+.mag_pricing h5{
+    font-size: 14px;
+}
+.mag_pricing .tableII tbody tr td{
+    font-size: 14px;
+}
+.mag_pricing .tableII .total{
+    font-size: 14px;
+}
